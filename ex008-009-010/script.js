@@ -79,10 +79,10 @@ class Transacoes {
                 contaNesser.saldo = this.saldo
                 return contaNesser.saldo
             }
-            else {
-                alert("Transferência inválida")
-                return this.saldo
-            }
+        }
+        else {
+            alert("Transferência inválida")
+            return contaNesser.saldo
         }
     }
     Deposito () {
@@ -105,7 +105,7 @@ class Transacoes {
 
 let clienteNesser = new Cliente('Nesser', '071.890.219-06', 'Rua Brasil, 922', 43999999999)
 let contaNesser = new Conta(546, 2500, clienteNesser)
-let transferenciaNesser = new Transacoes(contaNesser, 250, contaNesser.saldo)
+let transferenciaNesser = new Transacoes(contaNesser, 266, contaNesser.saldo)
 transferenciaNesser.Transferencia()
 console.log(contaNesser)
 console.log(transferenciaNesser)
