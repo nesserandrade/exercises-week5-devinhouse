@@ -1,5 +1,5 @@
 const estadosBrasileiros = Object.freeze({
-    AC: 'Acre', AL: 'Alagoas', PR: 'Paraná'
+    AC: 'Acre', AL: 'Alagoas', PR: 'Paraná', AP: 'Amapá', AM: 'Amazonas', BA: 'Bahia', CE: 'Ceará', ES: 'Espírito Santo', GO: 'Goiás', MA: 'Maranhão', MT: 'Mato Grosso', MS: 'Mato Grosso do Sul', MG: 'Minas Gerais', PA: 'Pará', PB: 'Paraíba', PE: 'Pernambuco', PI: 'Piauí', RJ: 'Rio de Janeiro', RN: 'Rio Grande do Norte', RS: 'Rio Grande do Sul', RO: 'Rondônia', RR: 'Roraima', SC: 'Santa Catarina', SP: 'São Paulo', SE: 'Sergipe', TO: 'Tocantins', DF: 'Distrito Federal'
 })
 
 class Endereco {
@@ -23,7 +23,7 @@ class Endereco {
 }
 
 let cliente1 = new Endereco("Rua Brasil", 922, "Londrina", "Paraná", "Brasil", "86010200")
-let cliente2 = new Endereco("Rua Brasil", 922, "Londrina", "São Paulo", "Brasil", "86010200")
+let cliente2 = new Endereco("Rua Brasil", 922, "Londrina", "Vahalla", "Brasil", "86010200")
 
 console.log(cliente1)
 console.log(cliente2)
