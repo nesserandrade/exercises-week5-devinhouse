@@ -72,27 +72,26 @@ class Transacoes {
     }
     Transferencia () {
         if (this.verificarTransf()) {
-            if (this.saldo >= this.valorTransacao) {
-                this.saldo -= this.valorTransacao
+            if (this.conta.saldo >= this.valorTransacao) {
+                this.conta.saldo -= this.valorTransacao
                 this.id = idTransf
                 idTransf++
-                contaNesser.saldo = this.saldo
-                return contaNesser.saldo
+                alert("Transferência efetuada com sucesso!")
+                return this.conta.saldo
             }
         }
         else {
             alert("Transferência inválida")
-            return contaNesser.saldo
+            return this.conta.saldo
         }
     }
     Deposito () {
         if (this.verificarTransf()) {
             this.saldo += this.valorTransacao
-            contaNesser.saldo = this.saldo
             this.id = idTransf
             idTransf++
             alert('Depósito efetuado')
-            return contaNesser.saldo
+            return this.conta.saldo
             }
         }
 
