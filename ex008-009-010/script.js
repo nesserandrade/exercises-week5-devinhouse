@@ -102,7 +102,7 @@ class Transacoes {
       }
 }
 
-let clienteNesser = new Cliente('Nesser', '071.890.219-06', 'Rua Brasil, 922', 43999999999)
+let clienteNesser = new Cliente('Nesser', '11111111111', 'Rua Alagoas, 922', 43999999999)
 let contaNesser = new Conta(546, 2500, clienteNesser)
 let transferenciaNesser = new Transacoes(contaNesser, 266, contaNesser.saldo)
 transferenciaNesser.Transferencia()
