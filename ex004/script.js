@@ -7,6 +7,6 @@ class Cliente {
     }
 }
 
-let cliente1 = new Cliente('Nesser', 11111111111, 'Rua Brasil, 922', 43999999999)
+let cliente1 = new Cliente('Nesser', 11111111111, 'Rua Alagoas, 922', 43999999999)
 
 console.log(cliente1)

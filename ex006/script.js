@@ -22,8 +22,8 @@ class Endereco {
     }
 }
 
-let cliente1 = new Endereco("Rua Brasil", 922, "Londrina", "Paraná", "Brasil", "86010200")
-let cliente2 = new Endereco("Rua Brasil", 922, "Londrina", "Vahalla", "Brasil", "86010200")
+let cliente1 = new Endereco("Rua Alagoas", 922, "Londrina", "Paraná", "Brasil", "86010200")
+let cliente2 = new Endereco("Rua Alagoas", 922, "Londrina", "Vahalla", "Brasil", "86010200")
 
 console.log(cliente1)
 console.log(cliente2)

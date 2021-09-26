@@ -9,5 +9,5 @@ class Endereço {
     }
 }
 
-cliente1 = new Endereço("Rua Brasil", 922, "Londrina", "Paraná", "Brasil", "86010200")
+cliente1 = new Endereço("Rua Alagoas", 922, "Londrina", "Paraná", "Brasil", "86010210")
 console.log(cliente1)
